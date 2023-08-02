@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 7px;
+}
+body{
+    font-family: 'Playfair', serif;
+    font-size: 1.6rem;
+    line-height: 1.4;
+    text-align: center;
+    background: #333;
+    color: #fff;
+}
+a{
+    text-decoration: none;
+}
+p{
+    padding: 1.4rem 0;
+}
+header{
+    height: 60rem;
+    
+}
+header .div-image{
+    background-image:url(İmages/Ekran\ görüntüsü\ 2023-06-06\ 144042.png) ;
+    background-size: cover;
+    background-position:center;
+    height: 60rem;
+    width: 100%;
+    opacity: 0.6;
+    position: absolute;
+    z-index: -1;
+}
+header h2{
+    padding: 12rem;
+    padding-bottom: 0;
+}
+.btn{
+    display: inline-block;
+    background: #222;
+    color: #fff;
+    border: 1px #444;
+    padding : 1.6rem 3.2rem;
+    margin:0.5rem 0;
+    transition: all 0.4s;
+}
+.btn:hover{
+    background-color: #fff;
+    color:black;
+}
+#section-a{
+    background: #eaeaea;
+    color: #333;
+    padding: 2.3rem;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+#section-b{
+    padding: 2.3rem;
+}
+#section-b ul{
+    list-style: none;
+}
+#section-b li{
+    background:lightblue;
+    color:#333;
+    margin-bottom: 2rem;
+}
+.col-content{
+    padding: 1.5rem;
+}
+#section-c{
+    padding: 5rem;
+    background: brown;
+}
+#section-d .box{
+    padding: 5rem;
+}
+#section-d .box:first-child{
+    background:darkslategray;
+}
+footer{
+    padding: 4rem;
+    background: black;
+}
+footer a{
+    color:firebrick;
+}
+.clearfix::after{
+    content: " ";
+    display: block;
+    clear: both;
+
+}
+@media screen and (min-width:800px) {
+    html{
+        font-size: 9px;
+    }
+    
+}
+@media screen and (min-width:1200px){
+    html{
+        font-size: 11px;
+
+    }
+    #section-b li{
+        width: 28%;
+        margin: 2%;
+        display: inline-block;
+
+    }
+    .box{
+        width: 50%;
+        float: left;
+    }
+    
+}
